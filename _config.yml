@@ -1,7 +1,7 @@
 title: AMRI
 description: Aquatic Microbiome Research Initiative
 subtitle: Aquatic Microbiome Research Initiative
-remote_theme: "mmistakes/minimal-mistakes@4.19.4"
+remote_theme: mmistakes/minimal-mistakes@4.27.3
 url: "https://amri-sweden.github.io"
 repository: amri-sweden
 logo: "/assets/images/amri.png"
