@@ -1,0 +1,8 @@
+main:
+#  - title: "Home"
+#    url: /
+  - title: "Contact"
+    url: /contact/
+  # Uncomment or add any other pages you want
+  # - title: "About"
+  #   url: /about/

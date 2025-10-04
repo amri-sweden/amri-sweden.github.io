@@ -1,0 +1,192 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough) #
+search: false
+---
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// --- Custom CSS below ---
+
+// --- Homepage gallery ---
+
+.homepage-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  .gallery-item {
+    position: relative;
+    flex: 1 1 calc(33.333% - 1rem);
+    overflow: hidden;
+    display: block;
+    border-radius: 8px;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    &:hover img {
+      transform: scale(1.05); // subtle zoom on hover
+    }
+  }
+}
+
+// --- About ---
+// Board members grid ---
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  .caption {
+    margin-top: 6px;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  .caption a {
+    color: #0056b3;        // name link color
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .caption a:hover {
+    text-decoration: underline;
+  }
+
+  .caption small {
+    color: #666;           // gray text for affiliation
+  }
+}
+
+// PI Grid
+.pi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 1 row of 4 */
+  gap: 1.5rem;
+  justify-items: center;
+  align-items: start;
+  margin: 1.5rem 0 2rem;
+}
+
+.pi-item {
+  text-align: center;   /* fixed syntax */
+  max-width: 220px;
+}
+
+.pi-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;    /* crop square */
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+}
+
+.pi-item .caption {
+  margin-top: 6px;
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+.pi-item .caption a {
+  color: #0056b3;       /* name link color */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pi-item .caption a:hover {
+  text-decoration: underline;
+}
+
+.pi-item .caption small {
+  color: #666;          /* gray text for affiliation */
+}
+
+/* Body and content */
+body {
+  background-color: #f2f2f2 !important;
+}
+.page__content {
+  background-color: #f2f2f2 !important; /* optional if you want white content cards */
+}
+
+/* Header + greedy nav container */
+.site-header,
+.site-header .container,
+.site-nav-wrapper,
+.site-nav {
+  background-color: #f2f2f2 !important;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #f2f2f2 !important;
+  color: #333 !important;
+}
+
+/* Nav links */
+.site-nav a {
+  color: #003366 !important;
+}
+.site-nav a:hover {
+  color: #0056b3 !important;
+}
+
+/* Force header / greedy nav background */
+.site-header,
+.site-header .container,
+.greedy-nav,
+.site-nav-wrapper,
+.site-nav {
+  background-color: #f2f2f2 !important;
+}
+
+/* Nav links color */
+.greedy-nav a,
+.site-nav a {
+  color: #003366 !important;
+}
+
+.greedy-nav a:hover,
+.site-nav a:hover {
+  color: #0056b3 !important;
+}
+
+/* All links in page content */
+.page__content a {
+  color: #0056b3;        /* your desired link color */
+  text-decoration: none;  /* remove underline if you like */
+  font-weight: 600;       /* optional: make it bold */
+}
+
+.page__content a:hover {
+  color: #003366;         /* hover color */
+  text-decoration: underline;  /* optional: underline on hover */
+}

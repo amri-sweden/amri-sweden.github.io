@@ -1,0 +1,32 @@
+title: AMRI
+description: Aquatic Microbiome Research Initiative
+subtitle: Aquatic Microbiome Research Initiative
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+url: "https://amri-sweden.github.io"
+repository: amri-sweden
+logo: "/assets/images/amri.png"
+enable_copy_code_button: true
+search: false
+
+#social:
+#  type:  Organization
+#  name:  amri-sweden
+#  links:
+#    - "https://twitter.com/yourTwitter"
+
+#minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+include: ["_pages"]
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      header:
+        search: false
