@@ -142,6 +142,8 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.93.2-aarch64-linux-musl)
       google-protobuf (~> 4.31)
+    sass-embedded (1.93.2-aarch64-mingw-ucrt)
+      google-protobuf (~> 4.31)
     sass-embedded (1.93.2-arm-linux-androideabi)
       google-protobuf (~> 4.31)
     sass-embedded (1.93.2-arm-linux-gnueabihf)
@@ -177,6 +179,7 @@ PLATFORMS
   aarch64-linux-android
   aarch64-linux-gnu
   aarch64-linux-musl
+  aarch64-mingw-ucrt
   arm-linux-androideabi
   arm-linux-gnu
   arm-linux-gnueabihf
@@ -186,6 +189,7 @@ PLATFORMS
   riscv64-linux-android
   riscv64-linux-gnu
   riscv64-linux-musl
+  ruby
   x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
@@ -203,4 +207,4 @@ DEPENDENCIES
   minimal-mistakes-jekyll
 
 BUNDLED WITH
-   2.7.2
+   2.5.9
