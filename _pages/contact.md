@@ -3,8 +3,7 @@ title: "Contact"
 layout: single
 permalink: /contact/
 header:
-  overlay_color: "rgba(32, 91, 154, 0.3)"
-  image: "/images/baltic_sea.png"
+  overlay_image: /assets/images/baltic_seaBLUR.png
 ---
 
 ## Get in Touch
