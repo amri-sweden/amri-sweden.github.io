@@ -75,18 +75,10 @@ AMRI is a network of aquatic microbial ecologists in Sweden, bringing together r
   </div>
 
   <div class="board-item">
-    <img src="/assets/images/SeidelLaura.jpg" alt="Laura Seidel">
-    <div class="caption">
-      <a href="https://www.su.se/english/profiles/lase7777-1.666129" target="_blank" rel="noopener noreferrer">Laura Seidel</a><br>
-      <small>Stockholm University</small>
-    </div>
-  </div>
-
-  <div class="board-item">
     <img src="/assets/images/StairsCourtney.jpg" alt="Courtney Stairs">
     <div class="caption">
-      <a href="https://portal.research.lu.se/en/persons/courtney-w-stairs" target="_blank" rel="noopener noreferrer">Courtney Stairs</a><br>
-      <small>Lund University</small>
+      <a href="https://www.uu.se/en/contact-and-organisation/staff?query=N16-809" target="_blank" rel="noopener noreferrer">Courtney Stairs</a><br>
+      <small>Uppsala University</small>
     </div>
   </div>
 </div>
