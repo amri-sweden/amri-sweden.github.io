@@ -18,7 +18,7 @@ h3 {
 
 <h2>AMRI meetings</h2>
 
-<h3>AMRI 2026 - SAVE THE DATE</h3>
+<h3>AMRI 2026 — SAVE THE DATE!</h3>
 
 <div style="text-align: justify;" markdown="1">
 

@@ -99,9 +99,8 @@ In 2024, a new generation of aquatic microbial ecologists took over the AMRI Ste
 </div>
 
 <h3 id="amri-steering-board-2019-2023">AMRI Steering Board, 2019–2023</h3>
-
-<div class="pi-grid">
-  <div class="pi-item">
+<div class="board-grid">
+  <div class="board-item">
     <img src="/assets/images/AnderssonAnders.jpg" alt="Anders Andersson">
     <div class="caption">
       <a href="https://www.kth.se/profile/andand" target="_blank" rel="noopener noreferrer">Anders Andersson</a><br>
@@ -109,7 +108,7 @@ In 2024, a new generation of aquatic microbial ecologists took over the AMRI Ste
     </div>
   </div>
 
-  <div class="pi-item">
+  <div class="board-item">
     <img src="/assets/images/BertilssonStefan.jpg" alt="Stefan Bertilsson">
     <div class="caption">
       <a href="https://www.slu.se/en/profilepages/b/stefan-bertilsson/" target="_blank" rel="noopener noreferrer">Stefan Bertilsson</a><br>
@@ -117,7 +116,7 @@ In 2024, a new generation of aquatic microbial ecologists took over the AMRI Ste
     </div>
   </div>
 
-  <div class="pi-item">
+  <div class="board-item">
     <img src="/assets/images/FosterRachel.jpg" alt="Rachel Foster">
     <div class="caption">
       <a href="https://www.su.se/english/profiles/rfost-1.194443" target="_blank" rel="noopener noreferrer">Rachel Foster</a><br>
@@ -125,7 +124,7 @@ In 2024, a new generation of aquatic microbial ecologists took over the AMRI Ste
     </div>
   </div>
 
-  <div class="pi-item">
+  <div class="board-item">
     <img src="/assets/images/PinhassiJarone.jpg" alt="Jarone Pinhassi">
     <div class="caption">
       <a href="https://lnu.se/en/staff/jarone.pinhassi/" target="_blank" rel="noopener noreferrer">Jarone Pinhassi</a><br>
