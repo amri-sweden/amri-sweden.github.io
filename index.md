@@ -36,9 +36,17 @@ header:
 
 <div style="text-align: justify;" markdown="1">
 The Aquatic Microbiome Research Initiative (AMRI) connects researchers across Sweden to share knowledge and ideas on aquatic microbial life. We bring together expertise in microbial ecology, evolution, and geochemistry in a collaborative effort to advance our understanding of microbial communities, their functional roles, and how they shape the environment.
+</div>
 
 <p style="text-align: center;">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSe85jQrno6odPss_7GORO6BJMYYIOAsrKgLsvnAJhzXSOppXQ/viewform" class="btn btn--info btn--large" target="_blank" rel="noopener noreferrer">Become a member of AMRI!</a>
 </p>
 
+
+<div style="text-align: center; margin: 2em 0; padding: 1em;">
+  <strong style="font-size: 1.2em;">
+    Join us at <a href="/events/amri-2026">AMRI 2026</a>
+  </strong>
+  <br>
+  Registration is open!
 </div>
