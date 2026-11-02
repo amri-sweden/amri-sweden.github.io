@@ -47,6 +47,4 @@ The Aquatic Microbiome Research Initiative (AMRI) connects researchers across Sw
   <strong style="font-size: 1.2em;">
     Join us at <a href="/events/amri-2026">AMRI 2026</a>
   </strong>
-  <br>
-  Registration is open!
 </div>
