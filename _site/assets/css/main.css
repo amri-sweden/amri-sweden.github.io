@@ -5258,19 +5258,17 @@ body {
 }
 
 .pi-item .caption small {
-  color: #666; /* gray text for affiliation */
+  color: #666;
 }
 
-/* Body and content */
 body {
   background-color: #f2f2f2 !important;
 }
 
 .page__content {
-  background-color: #f2f2f2 !important; /* optional if you want white content cards */
+  background-color: #f2f2f2 !important;
 }
 
-/* Header + greedy nav container */
 .site-header,
 .site-header .container,
 .site-nav-wrapper,
@@ -5278,13 +5276,11 @@ body {
   background-color: #f2f2f2 !important;
 }
 
-/* Footer */
 .site-footer {
   background-color: #f2f2f2 !important;
   color: #333 !important;
 }
 
-/* Nav links */
 .site-nav a {
   color: #003366 !important;
 }
@@ -5293,7 +5289,6 @@ body {
   color: #0056b3 !important;
 }
 
-/* Force header / greedy nav background */
 .site-header,
 .site-header .container,
 .greedy-nav,
@@ -5302,7 +5297,6 @@ body {
   background-color: #f2f2f2 !important;
 }
 
-/* Nav links color */
 .greedy-nav a,
 .site-nav a {
   color: #003366 !important;
@@ -5313,19 +5307,17 @@ body {
   color: #0056b3 !important;
 }
 
-/* All links in page content */
 .page__content a {
-  color: #0056b3; /* your desired link color */
-  text-decoration: none; /* remove underline if you like */
-  font-weight: 600; /* optional: make it bold */
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .page__content a:hover {
-  color: #003366; /* hover color */
-  text-decoration: underline; /* optional: underline on hover */
+  color: #003366;
+  text-decoration: underline;
 }
 
-/* AMRI programme */
 .programme {
   margin: 1.5em 0 2em;
 }
