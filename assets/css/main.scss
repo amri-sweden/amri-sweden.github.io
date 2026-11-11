@@ -1,13 +1,8 @@
----
-# Only the main Sass file needs front matter (the dashes are enough) #
-search: false
----
-
 @charset "utf-8";
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-// --- Custom CSS below ---
+// Custom CSS below
 
 // --- Homepage gallery ---
 
@@ -126,18 +121,18 @@ search: false
 }
 
 .pi-item .caption small {
-  color: #666;          /* gray text for affiliation */
+  color: #666;          // gray text for affiliation //
 }
 
-/* Body and content */
+// Body and content //
 body {
   background-color: #f2f2f2 !important;
 }
 .page__content {
-  background-color: #f2f2f2 !important; /* optional if you want white content cards */
+  background-color: #f2f2f2 !important; // optional if you want white content cards //
 }
 
-/* Header + greedy nav container */
+// Header + greedy nav container
 .site-header,
 .site-header .container,
 .site-nav-wrapper,
@@ -145,13 +140,13 @@ body {
   background-color: #f2f2f2 !important;
 }
 
-/* Footer */
+// Footer
 .site-footer {
   background-color: #f2f2f2 !important;
   color: #333 !important;
 }
 
-/* Nav links */
+// Nav links
 .site-nav a {
   color: #003366 !important;
 }
@@ -159,7 +154,7 @@ body {
   color: #0056b3 !important;
 }
 
-/* Force header / greedy nav background */
+// Force header / greedy nav background
 .site-header,
 .site-header .container,
 .greedy-nav,
@@ -168,7 +163,7 @@ body {
   background-color: #f2f2f2 !important;
 }
 
-/* Nav links color */
+// Nav links color
 .greedy-nav a,
 .site-nav a {
   color: #003366 !important;
@@ -179,20 +174,20 @@ body {
   color: #0056b3 !important;
 }
 
-/* All links in page content */
+// All links in page content
 .page__content a {
-  color: #0056b3;        /* your desired link color */
-  text-decoration: none;  /* remove underline if you like */
-  font-weight: 600;       /* optional: make it bold */
+  color: #0056b3;        // your desired link color
+  text-decoration: none;  // remove underline if you like
+  font-weight: 600;       // optional: make it bold
 }
 
 .page__content a:hover {
-  color: #003366;         /* hover color */
-  text-decoration: underline;  /* optional: underline on hover */
+  color: #003366;         // hover color
+  text-decoration: underline;  // optional: underline on hover
 }
 
 
-/* AMRI programme */
+// AMRI programme //
 
 .programme {
   margin: 1.5em 0 2em;
